@@ -10,15 +10,14 @@ class Rectangle():
         self.width = width
         self.height = height
 
-
-
     # Create the "__str__" method
     #
     # It returns a string, 
     #       "A rectangle with width ____ and height ____"
 
     # YOUR CODE HERE
-
+    def __str__(self):
+        return f"A Rectangle with width {self.width} and height {self.height}"
 
 
     # Create the "verify_input" method
